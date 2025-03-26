@@ -1,2 +1,4 @@
 ./miPrincipal/Principal.java
+./miPrincipal/Revista.java
+./miPrincipal/Publicacion.java
 ./miTest/AppTest.java
