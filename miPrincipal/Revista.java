@@ -37,6 +37,6 @@ public class Revista extends Publicacion{
 
      @Override
      public String toString(){
-        return "Periodicidad: "+this.periodicidad+" Ejemplares: "+ejemplares;
+        return super.toString()+" Periodicidad: "+this.periodicidad+" Ejemplares: "+ejemplares;
      }
 }
