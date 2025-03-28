@@ -14,5 +14,9 @@ public class VentanaEspecial extends Ventana{
         System.out.println("estoy en el metodo copiar de la clase derivada con un argumento tipo Ventana");
 
     }
+    public void copiar(char c, int veces, double x, double  y ){
+        System.out.println("estoy en el metodo copiar con 4 argumentos: char, int,double,double");
+
+    }
 
 }

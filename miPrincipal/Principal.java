@@ -45,7 +45,14 @@ public class Principal {
         ventanaEspecial.copiar(ventanaEspecial);
         ventanaEspecial.copiar("*****",10,5);
         ventanaEspecial.copiar('*',100,7,8);
+        //ventanaEspecial.copiar(ventana,5,2); //el compilador marca un error porque existe nungun metodo
+                                               //propio o heredado con esa signatura o cabecera
+        //ventanaEspecial.copiar('*',100,7.5,8.2); //el compilador marca un error porque existe nungun metodo
+                                               //propio o heredado con esa signatura o cabecera
+        ventanaEspecial.copiar('*',100,7.5F,8.2F);
         
+        
+
 
 
 
