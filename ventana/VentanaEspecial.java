@@ -10,10 +10,13 @@ public class VentanaEspecial extends Ventana{
 
     //getter y setter
     //sobreescritura
+    /* 
+    @Override //no se puede sobreescribir porque ya esta sellado en la clase base
     public void copiar(Ventana w){
         System.out.println("estoy en el metodo copiar de la clase derivada con un argumento tipo Ventana");
 
     }
+        */
     public void copiar(char c, int veces, double x, double  y ){
         System.out.println("estoy en el metodo copiar con 4 argumentos: char, int,double,double");
 

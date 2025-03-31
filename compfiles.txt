@@ -2,6 +2,8 @@
 ./miPrincipal/Libro.java
 ./miPrincipal/Revista.java
 ./miPrincipal/Publicacion.java
+./fecha/TestFecha.java
+./fecha/Fecha.java
 ./ventana/VentanaEspecial.java
 ./ventana/Ventana.java
 ./miTest/AppTest.java
