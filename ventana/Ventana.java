@@ -1,6 +1,11 @@
 package ventana;
 public class Ventana{
     //atributos
+    private String marco1;
+    public String marco2;
+    protected String marco3;
+    String marco4;
+    
     //constructores
     //metodos personalizados
     public void copiar(Ventana w){
