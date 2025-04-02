@@ -15,6 +15,26 @@ public class Fecha{
     	mes=m;
     	anio = a;
     }
+    public Fecha(String s){
+         //buscamos la primera coincidencia de /
+         int pos1 = s.indexOf('/');
+
+         //buscamos la ultima posicion del /
+         int pos2 = s.lastIndexOf('/');
+ 
+         //procesar el dia
+         String sDia = s.substring(0, pos1);
+         this.dia = Integer.parseInt(sDia);
+ 
+         //procesamos el mes
+         String sMes = s.substring(pos1+1,pos2);
+         this.mes = Integer.parseInt(sMes);
+ 
+         //procesamos el anio
+         String sAnio = s.substring(pos2+1);
+         this.anio = Integer.parseInt(sAnio);
+
+    }
     //getter y setter
     public int getDia(){
         return this.dia;

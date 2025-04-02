@@ -2,6 +2,7 @@
 ./miPrincipal/Libro.java
 ./miPrincipal/Revista.java
 ./miPrincipal/Publicacion.java
+./fecha/TestFecha4.java
 ./fecha/TestFecha2.java
 ./fecha/TestFecha3.java
 ./fecha/TestFecha.java
