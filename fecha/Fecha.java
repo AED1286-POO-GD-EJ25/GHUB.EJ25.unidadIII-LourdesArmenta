@@ -54,29 +54,20 @@ public class Fecha{
         //del resto o residuo de la division anterior
         //podremos obtener el mes y el dia
         int resto = i % 360;
-
         //el mes es el resto dividido entre 30
        this.mes = (int) resto/30;
-
         //el resto de la division anterior son los dias
-
         this.dia = resto % 30;
-
         //ajuste por si el dia quedo en cero
         if (dia ==0){
             dia = 30;
             mes--;
         }
-
         //ajuste por el mes quedo en cero
         if (mes ==0){
             mes = 12;
             anio--;
         }
-
-
-
-
     }
     //getter y setter
     public int getDia(){
