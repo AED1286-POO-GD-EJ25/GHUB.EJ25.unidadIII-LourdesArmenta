@@ -2,10 +2,12 @@
 ./miPrincipal/Libro.java
 ./miPrincipal/Revista.java
 ./miPrincipal/Publicacion.java
+./fecha/FechaDetallada.java
 ./fecha/TestFecha4.java
 ./fecha/TestFecha2.java
 ./fecha/TestFecha3.java
 ./fecha/TestFecha5.java
+./fecha/TestFechaDetallada.java
 ./fecha/TestFecha.java
 ./fecha/Fecha.java
 ./ventana/VentanaEspecial.java
