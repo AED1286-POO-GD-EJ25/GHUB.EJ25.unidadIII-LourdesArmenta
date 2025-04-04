@@ -30,6 +30,35 @@ public class TestConversiones {
         b1 = c; // converion automatica
         wt = c; //conversion automarica
 
+        Barco barcos[];
+        barcos = new Barco[3]; //creando un arreglo de nombre barcos y lo inicalizo con 3 elementos
+        /*
+         * barcos[0]
+         * barcos[1]
+         * barcos[2]
+         */
+        System.out.println();
+        DeVapor deVapor = new DeVapor();
+        Velero velero = new Velero();
+        Carguero carguero = new Carguero();
+        Revista revista = new Revista();
+
+        System.out.println();
+        //barcos[0].alarma(); hay un error porque el elemento 0 del arreglo barcos esta vacion
+        //barcos[0]= revista; hay un error porque no puede converir un objeto revista en un obeto barco
+                             //porque revista no pertenece a la jerarquia de clases de barco
+        barcos[0]= deVapor; //asignado un objero de la clase DeVapor al elemento 0 del arreglo barcos
+        barcos[1]= velero;
+        barcos[2]= carguero;
+
+        for (int l=0;l<3;l++){
+            barcos[l].alarma();
+        }
+
+
+
+
+
 
 
 

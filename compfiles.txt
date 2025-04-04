@@ -13,3 +13,9 @@
 ./ventana/VentanaEspecial.java
 ./ventana/Ventana.java
 ./miTest/AppTest.java
+./conversiones/Velero.java
+./conversiones/Barco.java
+./conversiones/Revista.java
+./conversiones/Carguero.java
+./conversiones/DeVapor.java
+./conversiones/TestConversiones.java
